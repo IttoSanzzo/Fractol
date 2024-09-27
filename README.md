@@ -1,7 +1,7 @@
 <h1 align="center">Fractol</h1>
 
 <p align="center">
-	<img width=400px src="./assets/Example.png" alt="Fractal Image">
+	<img width=400px src="https://i.imgur.com/pTeSFO5.png" alt="Fractal Image">
 </p>
 
 ## About It
