@@ -26,7 +26,7 @@ or
 make bonus
 ```
 
--   Then, it should be compiled, and to run it, it's as simple, as run it with one of the Fractals permitted. ()
+-   Then, it should be compiled, and to run it, it's as simple, as run it with one of the Fractals permitted.
 
 ```Bash
 ./fractol <fractal name>
