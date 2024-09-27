@@ -54,6 +54,7 @@ $(D_OBJS)%.o	: $(D_SRCS)%.c
 
 $(D_OBJS)	:
 	mkdir $(D_OBJS)
+	sh ./components/setmlx.sh
 
 bonus		: $(D_OBJS) $(B_OBJS)
 	$(C_COMP) $(C_FLAG) $(B_OBJS) ${C_LIBX} -o $(NAME)
@@ -62,6 +63,7 @@ $(NAME)		: $(D_OBJS) $(F_OBJS)
 	$(C_COMP) $(C_FLAG) $(F_OBJS) ${C_LIBX} -o $(NAME)
 
 clean		:
+	$(C_REMO) minilibx-linux/
 	${C_REMO} $(D_OBJS)
 
 fclean		: clean
